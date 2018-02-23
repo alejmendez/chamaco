@@ -4,7 +4,6 @@ class pago extends control_base{
 	protected $css = array('jquery.datetimepicker.css');
 	protected $js  = array('jquery.alphanumeric.js', 'jquery.datetimepicker.js');
 
-	protected $sinPermiso = true;
 	protected $idTerminal = 0;
 	protected $nombreTerminal = '';
 	protected $terminal_orden = 0;
