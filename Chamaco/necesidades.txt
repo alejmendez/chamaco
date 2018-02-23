@@ -1,0 +1,8 @@
+https://support.cs.iastate.edu/doku.php/faq/printing
+http://kb.linksys.com/Linksys/ukp.aspx?pid=80&vw=1&articleid=4126
+http://www.cups.org/documentation.php/options.html
+http://www.mugperu.com/portal/ForosdeDiscusi%C3%B3n/tabid/104/forumid/14/postid/332/view/topic/Default.aspx
+
+Hacer que el servicio de apache corra con una cuenta administrador dandole las credenciales (usuario y clave) por panel de control
+
+100 - 12

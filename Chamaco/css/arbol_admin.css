@@ -1,0 +1,47 @@
+#arbol{
+	width: 460px;
+	min-height: 300px;
+}
+#arbol .k-sprite {
+    background-image: url("../img/treeview/coloricons-sprite.png");
+}
+
+.icon-lock { background-position: -0px -0px; }
+.icon-fodt { background-position: -16px -0px; }
+.icon-folder-page { background-position: -32px -0px; }
+.icon-page-white-php { background-position: -48px -0px; }
+.icon-application-list { background-position: -64px -0px; }
+.icon-page-white-code { background-position: -80px -0px; }
+.icon-page-lightning { background-position: -0px -16px; }
+.icon-page-white { background-position: -16px -16px; }
+.icon-application { background-position: -32px -16px; }
+.icon-page-white-text { background-position: -48px -16px; }
+.icon-script-code { background-position: -64px -16px; }
+.icon-tag { background-position: -80px -16px; }
+.icon-document-text { background-position: -0px -32px; }
+.icon-table { background-position: -16px -32px; }
+.icon-documents { background-position: -32px -32px; }
+.icon-page-code { background-position: -48px -32px; }
+.icon-document-xaml { background-position: -64px -32px; }
+.icon-application-image { background-position: -80px -32px; }
+.icon-sitemap { background-position: -0px -48px; }
+.icon-script-text { background-position: -16px -48px; }
+.icon-application-form { background-position: -32px -48px; }
+.icon-sticky-note-pencil { background-position: -48px -48px; }
+.icon-sticky-note { background-position: -64px -48px; }
+.icon-page-gear { background-position: -80px -48px; }
+.icon-document-php { background-position: -0px -64px; }
+.icon-application-import { background-position: -16px -64px; }
+.icon-table-arrow { background-position: -32px -64px; }
+.icon-application-double { background-position: -48px -64px; }
+.icon-spectacle-sunglass { background-position: -64px -64px; }
+.icon-scripts { background-position: -80px -64px; }
+.icon-scripts-text { background-position: -0px -80px; }
+.icon-application-cascade { background-position: -16px -80px; }
+.icon-script-php { background-position: -32px -80px; }
+.icon-script { background-position: -48px -80px; }
+.icon-script-code-red { background-position: -64px -80px; }
+.icon-document-number { background-position: -80px -80px; }
+.icon-document { background-position: -0px -96px; }
+.icon-folder { background-position: -16px -96px; }
+.icon-note { background-position: -32px -96px; }

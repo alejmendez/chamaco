@@ -1,0 +1,1 @@
+<div id="cabecera" class="grid_12"></div>

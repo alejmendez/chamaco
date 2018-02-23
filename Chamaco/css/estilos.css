@@ -1,0 +1,251 @@
+body{
+	font-size: 12px; 
+	color: #494949;
+}
+
+a,a:link,a:active,a:hover,a:visited{ border:none; text-decoration:none; outline: 0 none; }
+img{ border:none; }
+
+.oculto{
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	-moz-opacity:0;
+	-khtml-opacity: 0;
+	opacity: 0;
+}
+
+#cargando {
+	display: none;
+    background: url("../img/loader.gif") no-repeat scroll 10px 50% #000000;
+    box-shadow: 0 0 2px #000000;
+    opacity: 0.6;
+    padding: 15px 40px 15px 60px;
+    position: fixed;
+    right: 0;
+    top: 10px;
+	font-size: 16px;
+	color: #FFFFFF;
+	z-index: 10000;
+}
+
+label.message{
+    background: transparent url(../img/msg_arrow.gif) no-repeat scroll center bottom;
+	padding-bottom: 7px;
+}
+
+div.error{
+    background-color:#F3E6E6;
+    border-color: #924949;
+    border-style: solid solid none solid;
+    border-width: 2px;
+    padding: 5px;
+}
+
+#contenedor{
+	min-height: 350px;
+}
+
+.obj{
+	float:left;
+	margin: 0 3px 5px;
+	vertical-align:text-top;
+}
+.obj .contenedorObj{
+	position:relative;
+	float:left;
+}
+.obj .labelObj{
+	margin-right:5px;
+	float:left;
+}
+
+input, button, select{
+	/*padding: 2px 0;*/
+}
+
+.barra{
+	width:100%; clear:both; height: 0;
+}
+.formfieldset{
+	background: #FFF;
+	margin:0;
+}
+.formfieldset legend{
+	padding:1px 8px;
+}
+
+form input, form select, .campo, #idm{
+    /* font-weight: bold !important; */
+}
+
+
+
+/*###################### cabecera ##########################*/
+#cabecera{
+	height: 20px;
+	position: relative;
+}
+
+.fondo{
+	clear: both;
+    min-width: 960px;
+    padding-bottom: 30px;
+    width: 100%;
+    min-height: 100%;
+    padding: 0;
+}
+
+#imagenFondo{
+	position: absolute;
+	width: 100%;
+}
+/*###################### MENU ##########################*/
+#menu{
+	height: 52px;
+	position: relative;
+	margin-bottom: 10px;
+	background: url('../img/menu/menu.png') no-repeat;
+}
+#menu ul{
+	padding-left: 10px;
+	position: relative;
+}
+#menu ul li{
+	list-style:none;
+	float: left;
+	padding: 8px 0 0;
+	margin: 0 5px;
+    color: #A4A4A4;
+    font-weight: bold;
+}
+#menu ul li.inicio{
+	padding: 0;
+}
+
+#menu ul li.barramenu{
+	background: url('../img/menu/barra.jpg') no-repeat;
+	height: 46px;
+	width: 2px;
+}
+
+#menu a, #menu a:link, #menu a:active,#menu a:hover,#menu a:visited{
+	color: #A4A4A4;
+	font-weight: bold;
+	font-size: 18px;
+	font-style: italic;
+}
+#cuenta_atras{
+    float: right !important;
+    background: none !important;
+    margin-right: 10px;
+}
+
+#menuAccion{
+	background: #FFF;
+	float:left;
+	clear:both;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+/*###################### PIES ##########################*/
+#pies{
+	font-size: 16px;
+	text-align: center;
+	padding-top: 40px;
+	height: 60px;
+}
+
+.contenedor_iconos_redres{
+	position: absolute;
+	right: 22px;
+    top: 7px;
+}
+
+#contenedorBotonera a,
+#contenedorBotonera a:link,
+#contenedorBotonera a:active,
+#contenedorBotonera a:hover,
+#contenedorBotonera a:visited{
+	color: #ACACAC;
+}
+
+.marcoContenedor{
+	position: relative;
+	overflow: hidden;
+	clear: both;
+	padding: 10px 0 0 0;
+}
+
+/* propuesta */
+.fondo{
+	/*background: url("../img/base.png") repeat-y scroll center center transparent;*/
+	position: relative;
+	z-index: 3;
+}
+
+#texto_pie{ 
+	color: #ffffff; 
+	font-weight: bold;
+}
+
+#contIzq{
+    height: 600px;
+}
+
+#eslogan, #verVideo{
+	color: white;
+	position: absolute;
+	top: -45px;
+	left: 15px;
+	text-align: left;
+	font-size: 18px;
+}
+#eslogan div{
+	font-size: 30px;
+	line-height: 0.7em;
+}
+#verVideo{
+	left: 770px;
+    width: 200px;
+}
+
+#contenedorBotonera{
+	margin-bottom: 0px;
+	background: white;
+}
+
+.contImagenBotonera{
+	float: left;
+	line-height: 0.9em;
+	text-align: center;
+	margin: 0 3px;
+	position: relative;
+	z-index: 3;
+	height: 61px;
+	width: 150px;
+}
+
+.contImagenBotonera img{
+	left: 34px;
+    position: absolute;
+    top: -20px;
+}
+
+#contPagina{
+	background: #FFF; 
+	overflow: hidden; 
+	padding: 10px 0; 
+	float: left;
+	
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+
+.dataTables_wrapper table{
+	margin-bottom: 0;
+}
+
+.dataTables_wrapper table tbody tr{
+	cursor: pointer;
+}

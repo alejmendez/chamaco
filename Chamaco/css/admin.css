@@ -1,0 +1,68 @@
+#padreDiv, #textoUsuario{
+	font-weight:bold;
+	width:auto; 
+	float:left; 
+	padding:2px 4px; 
+	margin:0px 4px;
+}
+#menuAdmin > *{
+	cursor:pointer;
+}
+#posicionMas{
+	background:url(images/spinnerUpDown.png) no-repeat 0px 0px;
+	width:15px;
+	height:8px;
+	float:left;
+	display:inline-block;
+	cursor:default;
+}
+#posicionMenos{
+	background:url(images/spinnerUpDown.png) no-repeat 0px -8px;
+	width:15px;
+	height:8px;
+	float:left;
+	display:inline-block;
+	cursor:default;
+}
+
+/* usuarios */
+.fUsuariosObjs{
+	float:left;
+	width:225px;
+	margin-bottom:5px;
+}
+
+.fUsuariosObjs .labelObj{
+	float:left;
+	width:82px;
+}
+
+.fUsuariosObjs .contenedorObj{
+	float:left;
+}
+
+.obj .labelObj {
+	float:left;
+	margin-right:0px;
+}
+/* archivos */
+.fArchivosObjs{
+	float:left;
+	width:165px;
+	margin-bottom:5px;
+}
+
+.fArchivosObjsDependencia{
+    float: right;
+    margin-right:0px;
+	width:395px;
+}
+
+.fArchivosObjsDependencia label{
+    vertical-align: top;
+}
+
+.tabsAdmin{
+	height: 500px;
+	overflow:hidden;
+}
